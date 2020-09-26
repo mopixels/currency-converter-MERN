@@ -1,0 +1,46 @@
+.App {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+	text-align: center;
+}
+h1 {
+	font-size: 4rem;
+}
+.refreshRow {
+	padding-bottom: 4rem;
+}
+
+.eurRow {
+	display: flex;
+}
+
+.euroSymbol {
+	font-size: 3.6rem;
+	font-weight: bold;
+	margin-left: 1rem;
+}
+
+.arrows {
+	font-size: 3rem;
+	font-weight: bold;
+	margin-left: -15rem;
+}
+
+@media only screen and (max-width: 500px) {
+	.foreignRow {
+		margin: 0 3rem;
+		justify-content: center;
+	}
+	.eurRow {
+		margin: 0 3rem;
+		justify-content: center;
+	}
+	.euroSymbol {
+		margin-left: -3.5rem;
+	}
+	.arrows {
+		margin-left: 0;
+	}
+}

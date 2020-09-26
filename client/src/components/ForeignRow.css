@@ -1,0 +1,25 @@
+.foreignInputStyle {
+	height: 6rem;
+	font-size: 2rem;
+	padding: 0.5rem;
+	border-radius: 1rem;
+	outline: none;
+}
+
+.currencyDropdown {
+	width: 15rem;
+	height: 3rem;
+	border-radius: 1rem;
+	padding-left: 0.5rem;
+	margin-left: 1rem;
+	outline: none;
+}
+
+@media only screen and (max-width: 500px) {
+	.foreignInputStyle {
+		padding-right: 3rem;
+	}
+	.currencyDropdown {
+		margin: 1rem;
+	}
+}

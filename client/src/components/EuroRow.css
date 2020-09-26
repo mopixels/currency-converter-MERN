@@ -1,0 +1,14 @@
+.eurInputStyle {
+	height: 6rem;
+	font-size: 2rem;
+	padding: 0.5rem;
+	border-radius: 1rem;
+	outline: none;
+}
+
+@media only screen and (max-width: 500px) {
+	.eurInputStyle {
+		margin-left: -4%;
+		padding-right: 3rem;
+	}
+}
